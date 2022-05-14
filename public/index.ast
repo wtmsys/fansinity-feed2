@@ -1,0 +1,610 @@
+[
+  {
+    "nodeType": "Stmt_Expression",
+    "expr": {
+      "nodeType": "Expr_FuncCall",
+      "name": {
+        "nodeType": "Name",
+        "parts": [
+          "define"
+        ],
+        "attributes": {
+          "startLine": 10,
+          "comments": [
+            {
+              "nodeType": "Comment_Doc",
+              "text": "/**\n * Laravel - A PHP Framework For Web Artisans\n *\n * @package  Laravel\n * @author   Taylor Otwell <taylor@laravel.com>\n */",
+              "line": 3,
+              "filePos": 7,
+              "tokenPos": 2,
+              "endLine": 8,
+              "endFilePos": 131,
+              "endTokenPos": 2
+            }
+          ],
+          "endLine": 10
+        }
+      },
+      "args": [
+        {
+          "nodeType": "Arg",
+          "name": null,
+          "value": {
+            "nodeType": "Scalar_String",
+            "value": "LARAVEL_START",
+            "attributes": {
+              "startLine": 10,
+              "endLine": 10,
+              "kind": 1
+            }
+          },
+          "byRef": false,
+          "unpack": false,
+          "attributes": {
+            "startLine": 10,
+            "endLine": 10
+          }
+        },
+        {
+          "nodeType": "Arg",
+          "name": null,
+          "value": {
+            "nodeType": "Expr_FuncCall",
+            "name": {
+              "nodeType": "Name",
+              "parts": [
+                "microtime"
+              ],
+              "attributes": {
+                "startLine": 10,
+                "endLine": 10
+              }
+            },
+            "args": [
+              {
+                "nodeType": "Arg",
+                "name": null,
+                "value": {
+                  "nodeType": "Expr_ConstFetch",
+                  "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                      "true"
+                    ],
+                    "attributes": {
+                      "startLine": 10,
+                      "endLine": 10
+                    }
+                  },
+                  "attributes": {
+                    "startLine": 10,
+                    "endLine": 10
+                  }
+                },
+                "byRef": false,
+                "unpack": false,
+                "attributes": {
+                  "startLine": 10,
+                  "endLine": 10
+                }
+              }
+            ],
+            "attributes": {
+              "startLine": 10,
+              "endLine": 10
+            }
+          },
+          "byRef": false,
+          "unpack": false,
+          "attributes": {
+            "startLine": 10,
+            "endLine": 10
+          }
+        }
+      ],
+      "attributes": {
+        "startLine": 10,
+        "comments": [
+          {
+            "nodeType": "Comment_Doc",
+            "text": "/**\n * Laravel - A PHP Framework For Web Artisans\n *\n * @package  Laravel\n * @author   Taylor Otwell <taylor@laravel.com>\n */",
+            "line": 3,
+            "filePos": 7,
+            "tokenPos": 2,
+            "endLine": 8,
+            "endFilePos": 131,
+            "endTokenPos": 2
+          }
+        ],
+        "endLine": 10
+      }
+    },
+    "attributes": {
+      "startLine": 10,
+      "comments": [
+        {
+          "nodeType": "Comment_Doc",
+          "text": "/**\n * Laravel - A PHP Framework For Web Artisans\n *\n * @package  Laravel\n * @author   Taylor Otwell <taylor@laravel.com>\n */",
+          "line": 3,
+          "filePos": 7,
+          "tokenPos": 2,
+          "endLine": 8,
+          "endFilePos": 131,
+          "endTokenPos": 2
+        }
+      ],
+      "endLine": 10
+    }
+  },
+  {
+    "nodeType": "Stmt_Expression",
+    "expr": {
+      "nodeType": "Expr_Include",
+      "expr": {
+        "nodeType": "Expr_BinaryOp_Concat",
+        "left": {
+          "nodeType": "Scalar_MagicConst_Dir",
+          "attributes": {
+            "startLine": 24,
+            "endLine": 24
+          }
+        },
+        "right": {
+          "nodeType": "Scalar_String",
+          "value": "/../vendor/autoload.php",
+          "attributes": {
+            "startLine": 24,
+            "endLine": 24,
+            "kind": 1
+          }
+        },
+        "attributes": {
+          "startLine": 24,
+          "endLine": 24
+        }
+      },
+      "type": 3,
+      "attributes": {
+        "startLine": 24,
+        "comments": [
+          {
+            "nodeType": "Comment",
+            "text": "/*\n|--------------------------------------------------------------------------\n| Register The Auto Loader\n|--------------------------------------------------------------------------\n|\n| Composer provides a convenient, automatically generated class loader for\n| our application. We just need to utilize it! We'll simply require it\n| into the script here so that we don't have to worry about manual\n| loading any of our classes later on. It feels great to relax.\n|\n*/",
+            "line": 12,
+            "filePos": 177,
+            "tokenPos": 16,
+            "endLine": 22,
+            "endFilePos": 641,
+            "endTokenPos": 16
+          }
+        ],
+        "endLine": 24
+      }
+    },
+    "attributes": {
+      "startLine": 24,
+      "comments": [
+        {
+          "nodeType": "Comment",
+          "text": "/*\n|--------------------------------------------------------------------------\n| Register The Auto Loader\n|--------------------------------------------------------------------------\n|\n| Composer provides a convenient, automatically generated class loader for\n| our application. We just need to utilize it! We'll simply require it\n| into the script here so that we don't have to worry about manual\n| loading any of our classes later on. It feels great to relax.\n|\n*/",
+          "line": 12,
+          "filePos": 177,
+          "tokenPos": 16,
+          "endLine": 22,
+          "endFilePos": 641,
+          "endTokenPos": 16
+        }
+      ],
+      "endLine": 24
+    }
+  },
+  {
+    "nodeType": "Stmt_Expression",
+    "expr": {
+      "nodeType": "Expr_Assign",
+      "var": {
+        "nodeType": "Expr_Variable",
+        "name": "app",
+        "attributes": {
+          "startLine": 38,
+          "comments": [
+            {
+              "nodeType": "Comment",
+              "text": "/*\n|--------------------------------------------------------------------------\n| Turn On The Lights\n|--------------------------------------------------------------------------\n|\n| We need to illuminate PHP development, so let us turn on the lights.\n| This bootstraps the framework and gets it ready for use, then it\n| will load up this application so that we can run it and send\n| the responses back to the browser and delight our users.\n|\n*/",
+              "line": 26,
+              "filePos": 688,
+              "tokenPos": 25,
+              "endLine": 36,
+              "endFilePos": 1129,
+              "endTokenPos": 25
+            }
+          ],
+          "endLine": 38
+        }
+      },
+      "expr": {
+        "nodeType": "Expr_Include",
+        "expr": {
+          "nodeType": "Expr_BinaryOp_Concat",
+          "left": {
+            "nodeType": "Scalar_MagicConst_Dir",
+            "attributes": {
+              "startLine": 38,
+              "endLine": 38
+            }
+          },
+          "right": {
+            "nodeType": "Scalar_String",
+            "value": "/../bootstrap/app.php",
+            "attributes": {
+              "startLine": 38,
+              "endLine": 38,
+              "kind": 1
+            }
+          },
+          "attributes": {
+            "startLine": 38,
+            "endLine": 38
+          }
+        },
+        "type": 4,
+        "attributes": {
+          "startLine": 38,
+          "endLine": 38
+        }
+      },
+      "attributes": {
+        "startLine": 38,
+        "comments": [
+          {
+            "nodeType": "Comment",
+            "text": "/*\n|--------------------------------------------------------------------------\n| Turn On The Lights\n|--------------------------------------------------------------------------\n|\n| We need to illuminate PHP development, so let us turn on the lights.\n| This bootstraps the framework and gets it ready for use, then it\n| will load up this application so that we can run it and send\n| the responses back to the browser and delight our users.\n|\n*/",
+            "line": 26,
+            "filePos": 688,
+            "tokenPos": 25,
+            "endLine": 36,
+            "endFilePos": 1129,
+            "endTokenPos": 25
+          }
+        ],
+        "endLine": 38
+      }
+    },
+    "attributes": {
+      "startLine": 38,
+      "comments": [
+        {
+          "nodeType": "Comment",
+          "text": "/*\n|--------------------------------------------------------------------------\n| Turn On The Lights\n|--------------------------------------------------------------------------\n|\n| We need to illuminate PHP development, so let us turn on the lights.\n| This bootstraps the framework and gets it ready for use, then it\n| will load up this application so that we can run it and send\n| the responses back to the browser and delight our users.\n|\n*/",
+          "line": 26,
+          "filePos": 688,
+          "tokenPos": 25,
+          "endLine": 36,
+          "endFilePos": 1129,
+          "endTokenPos": 25
+        }
+      ],
+      "endLine": 38
+    }
+  },
+  {
+    "nodeType": "Stmt_Expression",
+    "expr": {
+      "nodeType": "Expr_Assign",
+      "var": {
+        "nodeType": "Expr_Variable",
+        "name": "kernel",
+        "attributes": {
+          "startLine": 52,
+          "comments": [
+            {
+              "nodeType": "Comment",
+              "text": "/*\n|--------------------------------------------------------------------------\n| Run The Application\n|--------------------------------------------------------------------------\n|\n| Once we have the application, we can handle the incoming request\n| through the kernel, and send the associated response back to\n| the client's browser allowing them to enjoy the creative\n| and wonderful application we have prepared for them.\n|\n*/",
+              "line": 40,
+              "filePos": 1186,
+              "tokenPos": 38,
+              "endLine": 50,
+              "endFilePos": 1612,
+              "endTokenPos": 38
+            }
+          ],
+          "endLine": 52
+        }
+      },
+      "expr": {
+        "nodeType": "Expr_MethodCall",
+        "var": {
+          "nodeType": "Expr_Variable",
+          "name": "app",
+          "attributes": {
+            "startLine": 52,
+            "endLine": 52
+          }
+        },
+        "name": {
+          "nodeType": "Identifier",
+          "name": "make",
+          "attributes": {
+            "startLine": 52,
+            "endLine": 52
+          }
+        },
+        "args": [
+          {
+            "nodeType": "Arg",
+            "name": null,
+            "value": {
+              "nodeType": "Expr_ClassConstFetch",
+              "class": {
+                "nodeType": "Name",
+                "parts": [
+                  "Illuminate",
+                  "Contracts",
+                  "Http",
+                  "Kernel"
+                ],
+                "attributes": {
+                  "startLine": 52,
+                  "endLine": 52
+                }
+              },
+              "name": {
+                "nodeType": "Identifier",
+                "name": "class",
+                "attributes": {
+                  "startLine": 52,
+                  "endLine": 52
+                }
+              },
+              "attributes": {
+                "startLine": 52,
+                "endLine": 52
+              }
+            },
+            "byRef": false,
+            "unpack": false,
+            "attributes": {
+              "startLine": 52,
+              "endLine": 52
+            }
+          }
+        ],
+        "attributes": {
+          "startLine": 52,
+          "endLine": 52
+        }
+      },
+      "attributes": {
+        "startLine": 52,
+        "comments": [
+          {
+            "nodeType": "Comment",
+            "text": "/*\n|--------------------------------------------------------------------------\n| Run The Application\n|--------------------------------------------------------------------------\n|\n| Once we have the application, we can handle the incoming request\n| through the kernel, and send the associated response back to\n| the client's browser allowing them to enjoy the creative\n| and wonderful application we have prepared for them.\n|\n*/",
+            "line": 40,
+            "filePos": 1186,
+            "tokenPos": 38,
+            "endLine": 50,
+            "endFilePos": 1612,
+            "endTokenPos": 38
+          }
+        ],
+        "endLine": 52
+      }
+    },
+    "attributes": {
+      "startLine": 52,
+      "comments": [
+        {
+          "nodeType": "Comment",
+          "text": "/*\n|--------------------------------------------------------------------------\n| Run The Application\n|--------------------------------------------------------------------------\n|\n| Once we have the application, we can handle the incoming request\n| through the kernel, and send the associated response back to\n| the client's browser allowing them to enjoy the creative\n| and wonderful application we have prepared for them.\n|\n*/",
+          "line": 40,
+          "filePos": 1186,
+          "tokenPos": 38,
+          "endLine": 50,
+          "endFilePos": 1612,
+          "endTokenPos": 38
+        }
+      ],
+      "endLine": 52
+    }
+  },
+  {
+    "nodeType": "Stmt_Expression",
+    "expr": {
+      "nodeType": "Expr_Assign",
+      "var": {
+        "nodeType": "Expr_Variable",
+        "name": "response",
+        "attributes": {
+          "startLine": 54,
+          "endLine": 54
+        }
+      },
+      "expr": {
+        "nodeType": "Expr_MethodCall",
+        "var": {
+          "nodeType": "Expr_Variable",
+          "name": "kernel",
+          "attributes": {
+            "startLine": 54,
+            "endLine": 54
+          }
+        },
+        "name": {
+          "nodeType": "Identifier",
+          "name": "handle",
+          "attributes": {
+            "startLine": 54,
+            "endLine": 54
+          }
+        },
+        "args": [
+          {
+            "nodeType": "Arg",
+            "name": null,
+            "value": {
+              "nodeType": "Expr_Assign",
+              "var": {
+                "nodeType": "Expr_Variable",
+                "name": "request",
+                "attributes": {
+                  "startLine": 55,
+                  "endLine": 55
+                }
+              },
+              "expr": {
+                "nodeType": "Expr_StaticCall",
+                "class": {
+                  "nodeType": "Name",
+                  "parts": [
+                    "Illuminate",
+                    "Http",
+                    "Request"
+                  ],
+                  "attributes": {
+                    "startLine": 55,
+                    "endLine": 55
+                  }
+                },
+                "name": {
+                  "nodeType": "Identifier",
+                  "name": "capture",
+                  "attributes": {
+                    "startLine": 55,
+                    "endLine": 55
+                  }
+                },
+                "args": [],
+                "attributes": {
+                  "startLine": 55,
+                  "endLine": 55
+                }
+              },
+              "attributes": {
+                "startLine": 55,
+                "endLine": 55
+              }
+            },
+            "byRef": false,
+            "unpack": false,
+            "attributes": {
+              "startLine": 55,
+              "endLine": 55
+            }
+          }
+        ],
+        "attributes": {
+          "startLine": 54,
+          "endLine": 56
+        }
+      },
+      "attributes": {
+        "startLine": 54,
+        "endLine": 56
+      }
+    },
+    "attributes": {
+      "startLine": 54,
+      "endLine": 56
+    }
+  },
+  {
+    "nodeType": "Stmt_Expression",
+    "expr": {
+      "nodeType": "Expr_MethodCall",
+      "var": {
+        "nodeType": "Expr_Variable",
+        "name": "response",
+        "attributes": {
+          "startLine": 58,
+          "endLine": 58
+        }
+      },
+      "name": {
+        "nodeType": "Identifier",
+        "name": "send",
+        "attributes": {
+          "startLine": 58,
+          "endLine": 58
+        }
+      },
+      "args": [],
+      "attributes": {
+        "startLine": 58,
+        "endLine": 58
+      }
+    },
+    "attributes": {
+      "startLine": 58,
+      "endLine": 58
+    }
+  },
+  {
+    "nodeType": "Stmt_Expression",
+    "expr": {
+      "nodeType": "Expr_MethodCall",
+      "var": {
+        "nodeType": "Expr_Variable",
+        "name": "kernel",
+        "attributes": {
+          "startLine": 60,
+          "endLine": 60
+        }
+      },
+      "name": {
+        "nodeType": "Identifier",
+        "name": "terminate",
+        "attributes": {
+          "startLine": 60,
+          "endLine": 60
+        }
+      },
+      "args": [
+        {
+          "nodeType": "Arg",
+          "name": null,
+          "value": {
+            "nodeType": "Expr_Variable",
+            "name": "request",
+            "attributes": {
+              "startLine": 60,
+              "endLine": 60
+            }
+          },
+          "byRef": false,
+          "unpack": false,
+          "attributes": {
+            "startLine": 60,
+            "endLine": 60
+          }
+        },
+        {
+          "nodeType": "Arg",
+          "name": null,
+          "value": {
+            "nodeType": "Expr_Variable",
+            "name": "response",
+            "attributes": {
+              "startLine": 60,
+              "endLine": 60
+            }
+          },
+          "byRef": false,
+          "unpack": false,
+          "attributes": {
+            "startLine": 60,
+            "endLine": 60
+          }
+        }
+      ],
+      "attributes": {
+        "startLine": 60,
+        "endLine": 60
+      }
+    },
+    "attributes": {
+      "startLine": 60,
+      "endLine": 60
+    }
+  }
+]
