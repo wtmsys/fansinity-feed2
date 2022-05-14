@@ -1,4 +1,4 @@
-## JustFans - Paid creator social media platform
+##Fansinity
 
 #### About
 
@@ -154,10 +154,3 @@ _Wrk Benchmark tool sample_
 _Google Lighthouse/Page Insights report sample_
 ![alt text](https://i.imgur.com/mFXY8Zb.png)
 
-#### Questions?
-
-Send us a message over http://qdev.tech .
-
-<hr>
-
-Qdev Techs SRL - All rights reserved.
